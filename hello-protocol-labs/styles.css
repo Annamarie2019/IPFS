@@ -1,0 +1,78 @@
+#maintitle {
+    background-color: transparent;
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+        font-size: 175%;
+        color: DarkCyan;
+}
+
+.intro {
+	position: relative;
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+}
+
+.intro:last-child {
+	margin-right: 0;
+}
+
+h2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 244px;
+	margin: 0;
+	padding: 0.25em 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 125%;
+        color: DarkCyan;
+}
+
+.images {
+	margin: 0;
+}
+
+#annamarie {
+	background-color: #F7D5B6;
+}
+#frida {
+	background-color: #F8D8D6;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.intro {
+		width: 48.7%;
+		margin-right: 0;
+	}
+
+	.intro:nth-child(1) {
+		margin-right: 2.5%;
+	}
+
+	.intro:nth-child(3) {
+		clear: both;
+		width: 80%;
+		margin-top: 2.5%;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px)
+{
+	.intro {
+		width: 80%;
+		margin-right: 5%;
+		clear: both;
+		margin-bottom: 3%;
+	}
+		.intro:last-child {
+		margin-bottom: 0;
+	}
+}
