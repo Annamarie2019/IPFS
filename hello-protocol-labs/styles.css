@@ -29,20 +29,13 @@ h2 {
 	padding: 0.25em 1em;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 125%;
-        color: DarkCyan;
+	background-color: #F8D8D6;
+    color: DarkCyan;
 }
 
 .images {
 	margin: 0;
 }
-
-#annamarie {
-	background-color: #F7D5B6;
-}
-#frida {
-	background-color: #F8D8D6;
-}
-
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px)
